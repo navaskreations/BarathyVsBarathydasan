@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/activity_main"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#EFEBE9"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            tools:context="com.example.android.barathyvsbarathydasan.MainActivity">
+
+            <!--Heading textview -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/heading"
+                android:textAllCaps="true"
+                android:textColor="#3E2723"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <!--Briefing textview -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:gravity="center_vertical"
+                android:paddingBottom="20dp"
+                android:paddingTop="10dp"
+                android:text="@string/briefing"
+                android:textColor="#000000"
+                android:textSize="14sp" />
+
+            <!--Question 1 Layout -->
+            <LinearLayout
+                style="@style/LayoutDesign"
+                android:background="@drawable/shape"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/QuestionTopic"
+                    android:text="@string/question1" />
+
+                <TextView
+                    style="@style/QuizDesign"
+                    android:text="@string/Quiz1" />
+
+                <RadioGroup
+                    android:id="@+id/RG1"
+                    style="@style/RadioGroupDesign"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/radio_q1_option1"
+                        style="@style/RadioButtonDesign"
+                        android:onClick="onRadioButtonClicked"
+                        android:paddingRight="50dp"
+                        android:text="@string/radio1" />
+
+                    <RadioButton
+                        android:id="@+id/radio_q1_option2"
+                        style="@style/RadioButtonDesign"
+                        android:onClick="onRadioButtonClicked"
+                        android:text="@string/radio2" />
+
+                </RadioGroup>
+            </LinearLayout>
+
+            <!--Question 2 Layout -->
+            <LinearLayout
+                style="@style/LayoutDesign"
+                android:background="@drawable/shape"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/QuestionTopic"
+                    android:text="@string/question2" />
+
+                <TextView
+                    style="@style/QuizDesign"
+                    android:text="@string/Quiz2" />
+
+                <RadioGroup
+                    android:id="@+id/RG2"
+                    style="@style/RadioGroupDesign"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/radio_q2_option1"
+                        style="@style/RadioButtonDesign"
+                        android:onClick="onRadioButtonClicked"
+                        android:paddingRight="50dp"
+                        android:text="@string/radio1" />
+
+                    <RadioButton
+                        android:id="@+id/radio_q2_option2"
+                        style="@style/RadioButtonDesign"
+                        android:onClick="onRadioButtonClicked"
+                        android:text="@string/radio2" />
+
+                </RadioGroup>
+            </LinearLayout>
+
+            <!--Question 3 Layout -->
+            <LinearLayout
+                style="@style/LayoutDesign"
+                android:background="@drawable/shape"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/QuestionTopic"
+                    android:text="@string/question3" />
+
+                <TextView
+                    style="@style/QuizDesign"
+                    android:text="@string/Quiz3" />
+
+                <RadioGroup
+                    android:id="@+id/RG3"
+                    style="@style/RadioGroupDesign"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/radio_q3_option1"
+                        style="@style/RadioButtonDesign"
+                        android:onClick="onRadioButtonClicked"
+                        android:paddingRight="50dp"
+                        android:text="@string/radio1" />
+
+                    <RadioButton
+                        android:id="@+id/radio_q3_option2"
+                        style="@style/RadioButtonDesign"
+                        android:onClick="onRadioButtonClicked"
+                        android:text="@string/radio2" />
+
+                </RadioGroup>
+            </LinearLayout>
+
+            <!--Question 4 Layout -->
+            <LinearLayout
+                style="@style/LayoutDesign"
+                android:background="@drawable/shape"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/QuestionTopic"
+                    android:text="@string/question4" />
+
+                <TextView
+                    style="@style/QuizDesign"
+                    android:text="@string/Quiz4" />
+
+                <RadioGroup
+                    android:id="@+id/RG4"
+                    style="@style/RadioGroupDesign"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/radio_q4_option1"
+                        style="@style/RadioButtonDesign"
+                        android:onClick="onRadioButtonClicked"
+                        android:paddingRight="50dp"
+                        android:text="@string/radio1" />
+
+                    <RadioButton
+                        android:id="@+id/radio_q4_option2"
+                        style="@style/RadioButtonDesign"
+                        android:onClick="onRadioButtonClicked"
+                        android:text="@string/radio2" />
+
+                </RadioGroup>
+            </LinearLayout>
+
+            <!--Question 5 Layout -->
+            <LinearLayout
+                style="@style/LayoutDesign"
+                android:background="@drawable/shape"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/QuestionTopic"
+                    android:text="@string/question5" />
+
+                <TextView
+                    style="@style/QuizDesign"
+                    android:text="@string/Quiz5" />
+
+                <RadioGroup
+                    android:id="@+id/RG5"
+                    style="@style/RadioGroupDesign"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/radio_q5_option1"
+                        style="@style/RadioButtonDesign"
+                        android:onClick="onRadioButtonClicked"
+                        android:paddingRight="50dp"
+                        android:text="@string/radio1" />
+
+                    <RadioButton
+                        android:id="@+id/radio_q5_option2"
+                        style="@style/RadioButtonDesign"
+                        android:onClick="onRadioButtonClicked"
+                        android:text="@string/radio2" />
+
+                </RadioGroup>
+            </LinearLayout>
+
+            <!--Question 6 Layout -->
+            <LinearLayout
+                style="@style/LayoutDesign"
+                android:background="@drawable/shape"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/QuestionTopic"
+                    android:text="@string/question6" />
+
+                <TextView
+                    style="@style/QuizDesign"
+                    android:text="@string/Quiz6" />
+
+                <RadioGroup
+                    android:id="@+id/RG6"
+                    style="@style/RadioGroupDesign"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/radio_q6_option1"
+                        style="@style/RadioButtonDesign"
+                        android:onClick="onRadioButtonClicked"
+                        android:paddingRight="50dp"
+                        android:text="@string/radio1" />
+
+                    <RadioButton
+                        android:id="@+id/radio_q6_option2"
+                        style="@style/RadioButtonDesign"
+                        android:onClick="onRadioButtonClicked"
+                        android:text="@string/radio2" />
+
+                </RadioGroup>
+            </LinearLayout>
+
+            <!--Question 7 Layout -->
+            <LinearLayout
+                style="@style/LayoutDesign"
+                android:background="@drawable/shape"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/QuestionTopic"
+                    android:text="@string/question7" />
+
+                <TextView
+                    style="@style/QuizDesign"
+                    android:text="@string/Quiz7" />
+
+                <RadioGroup
+                    android:id="@+id/RG7"
+                    style="@style/RadioGroupDesign"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/radio_q7_option1"
+                        style="@style/RadioButtonDesign"
+                        android:onClick="onRadioButtonClicked"
+                        android:paddingRight="50dp"
+                        android:text="@string/radio1" />
+
+                    <RadioButton
+                        android:id="@+id/radio_q7_option2"
+                        style="@style/RadioButtonDesign"
+                        android:onClick="onRadioButtonClicked"
+                        android:text="@string/radio2" />
+
+                </RadioGroup>
+            </LinearLayout>
+
+            <!--Question 8 Layout -->
+            <LinearLayout
+                style="@style/LayoutDesign"
+                android:background="@drawable/shape"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/QuestionTopic"
+                    android:text="@string/question8" />
+
+                <TextView
+                    style="@style/QuizDesign"
+                    android:text="@string/Quiz8" />
+
+                <RadioGroup
+                    android:id="@+id/RG8"
+                    style="@style/RadioGroupDesign"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/radio_q8_option1"
+                        style="@style/RadioButtonDesign"
+                        android:onClick="onRadioButtonClicked"
+                        android:paddingRight="50dp"
+                        android:text="@string/radio1" />
+
+                    <RadioButton
+                        android:id="@+id/radio_q8_option2"
+                        style="@style/RadioButtonDesign"
+                        android:onClick="onRadioButtonClicked"
+                        android:text="@string/radio2" />
+
+                </RadioGroup>
+            </LinearLayout>
+
+            <!--Question 9 Layout -->
+            <LinearLayout
+                style="@style/LayoutDesign"
+                android:background="@drawable/shape"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/QuestionTopic"
+                    android:text="@string/question9" />
+
+                <TextView
+                    style="@style/QuizDesign"
+                    android:text="@string/Quiz9" />
+
+                <RadioGroup
+                    android:id="@+id/RG9"
+                    style="@style/RadioGroupDesign"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/radio_q9_option1"
+                        style="@style/RadioButtonDesign"
+                        android:onClick="onRadioButtonClicked"
+                        android:paddingRight="50dp"
+                        android:text="@string/radio1" />
+
+                    <RadioButton
+                        android:id="@+id/radio_q9_option2"
+                        style="@style/RadioButtonDesign"
+                        android:onClick="onRadioButtonClicked"
+                        android:text="@string/radio2" />
+
+                </RadioGroup>
+            </LinearLayout>
+
+            <!--Question 10 Layout -->
+            <LinearLayout
+                style="@style/LayoutDesign"
+                android:background="@drawable/shape"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/QuestionTopic"
+                    android:text="@string/question10" />
+
+                <TextView
+                    style="@style/QuizDesign"
+                    android:text="@string/Quiz10"
+                    android:textSize="12sp" />
+
+                <RadioGroup
+                    android:id="@+id/RG10"
+                    style="@style/RadioGroupDesign"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/radio_q10_option1"
+                        style="@style/RadioButtonDesign"
+                        android:onClick="onRadioButtonClicked"
+                        android:paddingRight="5dp"
+                        android:text="@string/radio1" />
+
+                    <RadioButton
+                        android:id="@+id/radio_q10_option2"
+                        style="@style/RadioButtonDesign"
+                        android:onClick="onRadioButtonClicked"
+                        android:text="@string/radio2" />
+
+                </RadioGroup>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="20dp"
+            android:paddingTop="20dp">
+
+            <Button
+                style="@style/ButtonDesign"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:onClick="CheckQuizAnswer"
+                android:text="@string/checkAnswer"
+                android:layout_margin="10dp"/>
+
+
+            <Button
+                style="@style/ButtonDesign"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:onClick="Replay"
+                android:text="@string/replay"
+                android:layout_margin="10dp"/>
+
+        </RelativeLayout>
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,75 @@
+<resources>
+    <string name="app_name">Barathi Vs Barathidasan</string>
+    <string name="heading">QUIZ</string>
+    <string name="briefing">Barathiyar/Barathidasan strong lines at somepoint created a deep impact in our life. Let\'s Check our knowledge about the creator of those lines.</string>
+    <string name="question1">Question:1</string>
+    <string name="Quiz1">"
+        Kaatruveliyidai Kannamma
+        Nindran Kaadhalai Yenni Kalikkindren
+        Amudhootrinai Otha Idhazhgalum
+        Nilavoori Thadhumbum Vizhigalum"</string>
+    <string name="question2">Question:2</string>
+    <string name="Quiz2">"
+        Engal Vaazhvum Engal Valamum
+        Mangatha Tamizhendru Sangae Muzhangu!
+        Engal Pagaivar Engo Marainthar
+        Ingulla Tamizhargal Ondraathal Kande!"</string>
+    <string name="question3">Question:3</string>
+    <string name="Quiz3">"
+        Summa Kedantha Nethai Kothi
+        Sombal illama Yer Nadathi
+        Kamma Karaiya Osathi katti
+        Karumbu Kollaiyil Vaaikaal Vetti
+        Samba Payira Pudingi Nattu
+        Thaguntha Muraiyil Thaneer Vittu
+
+        Nellu Velachiruku - Varappum
+        Ulla Marainchiruku"</string>
+    <string name="question4">Question:4</string>
+    <string name="Quiz4">"
+        Avalum Naanum Amuthum Tamizhum
+        Avalum Naanum Alaiyum Kadalum
+        Avalum Naanum Thavmum Arulum
+        Avalum Naanum Verum Maramum"</string>
+    <string name="question5">Question:5</string>
+    <string name="Quiz5">"
+        Tamizhukum Amuthendru Per - Antha
+        Tamil Inba Tamil Engal Uyiruku Ner!"</string>
+    <string name="question6">Question:6</string>
+    <string name="Quiz6">"
+        Paayumoli Nee Ennaku, Paarkumvizhi Naan Unaku
+        Thoyumathu Nee Ennaku, Thumbiadi Naan Unaku"</string>
+    <string name="question7">Question:7</string>
+    <string name="Quiz7">"
+        Enthaiyum Thaaiyum Mazhinthu Kulaavi
+        Irunthathum Innaadae - Athan
+        Munthaiyar Aayiram Aandugal Vazhnthu
+        Mudinthathum Innaadae"</string>
+    <string name="question8">Question:8</string>
+    <string name="Quiz8">"
+        Thayin Manikodi Paarir - Athai
+        Thazhnthu Paninthu Pugazhnthida Vaareer"</string>
+    <string name="question9">Question:9</string>
+    <string name="Quiz9">"
+        Thoongum Puliyai Pirai kondu Ezhupinom
+        Thooya Tamizharai Tamil Kondu Ezhupinom"</string>
+    <string name="question10">Question:10</string>
+     <string name="Quiz10">"
+         Theertha Karaiyinilae Therku Moolaiyil Senbaga Thotathilae
+         Paarthirunthal Varuven Venillavilae Paangiyodenru Sonnai
+         Vaarthai Thavari Vittai Adi Kannama Maarbu Thudikuthadi
+         Paartha Edathiellam Unnai Poi Paavai Theriyuthadi"</string>
+    <string name="radio1">Barathi</string>
+    <string name="radio2">Barathidasan</string>
+    <string name="replay">Replay</string>
+    <string name="checkAnswer">Check Answer</string>
+    <string name="replaymsg">You are ready to play again!!!</string>
+    <string name="answermsg">Answered : </string>
+    <string name="answermsg1">/10, Correct : </string>
+    <string name="answermsg2">Tamil Kaaththa Perumai Ummai Serum!!! Kudos!!!</string>
+    <string name="answermsg3">Vazhga Tamil Velga Tamizhagam Tamil Singam Nee!!!</string>
+    <string name="answermsg4">Ayyo Ivangalam Nammbi Tamil Valakka Solitu Setha En Paatan Enga? Dei Paata iruda varen???</string>
+    <string name="answermsg5">Tamiluku Vantha Sothanaiya Paarunga Makkalae...intha 1 mark vechu nee enna panapora illa naanthan enna panaporen??</string>
+    <string name="answermsg6">Neelaam Tamil Quiz Atten Pannalanu Yaaru Azhutha Apidiyae Phone ah potu Thirumbipakkama odipoiru....</string>
+
+</resources>
